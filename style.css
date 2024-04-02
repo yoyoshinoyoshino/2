@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #crash-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #crash-message {
+    font-size: 24px;
+    color: black;
+    margin-top: 20px;
+  }
+  
+ #h{
+    font-size: 30px;
+    color: pink;
+    margin-top: auto;
+   
+  }
+ #b{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgba(198, 26, 115, 0.3), rgba(97, 242, 44, 0.3));
+    transition: background 0.3s ease;
+    cursor: pointer;
+    outline: none;
+    color: aqua;
+    margin-bottom: 20px;
+  }
+
+  #b:hover {
+    background: linear-gradient(to right, rgba(192, 20, 161, 0.6), rgba(27, 222, 118, 0.6));
+  }
+  #r{
+    color: red;
+   text-decoration: underline;
+   cursor: pointer;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: 30px;
+  }
+  #i{
+    width: 1280px;
+    height: 714px;
+  }
+  #container {
+    
+    align-items: center;
+  }
+  #d {
+    width: 100%; /* 设置宽度为父容器的一半 */
+    margin: 0 auto; /* 居中显示 */
+    display: flex;
+  }
+
+  #d button,
+  #d a{
+    margin-right: 1px; /* 添加一些间距 */
+  }
